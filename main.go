@@ -48,9 +48,9 @@ func main() {
 		},
 	}
 
+	rootCmd.CompletionOptions.DisableDefaultCmd = true
 	rootCmd.AddCommand(linesCmd)
 	rootCmd.AddCommand(chunksCmd)
-	rootCmd.CompletionOptions.DisableDefaultCmd = true
 	rootCmd.Execute()
 }
 
