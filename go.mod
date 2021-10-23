@@ -1,4 +1,4 @@
-module entropysort
+module github.com/dsaxton/entropysort
 
 go 1.17
 
